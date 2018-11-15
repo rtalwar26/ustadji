@@ -1,5 +1,5 @@
 #!/usr/local/bin/zsh
-
+rm -rf .cache
 npm run build
 mv dist docs
 git add .

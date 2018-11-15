@@ -20,7 +20,7 @@
   },
   "scripts": {
     "start": "marko-starter server",
-    "build": "NODE_ENV=production marko-starter build",
+    "build": "LASSO_TIMEOUT=60000 NODE_ENV=production marko-starter build",
     "serve-static": "NODE_ENV=production marko-starter serve-static",
     "lint": "eslint src/",
     "test": "npm run lint",
