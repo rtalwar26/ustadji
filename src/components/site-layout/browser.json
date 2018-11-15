@@ -1,0 +1,16 @@
+{
+    "dependencies":[
+        {"path":"./assets/css/font-awesome.min.css" ,"type":"css"},
+       {"path":"./assets/css/main.css" ,"type":"css"},
+       {"path":"./assets/css/noscript.css" ,"type":"css"},
+       {"path":"./assets/js/breakpoints.min.js" , "type":"js"},
+       {"path":"./assets/js/browser.min.js" , "type":"js"},
+       {"path":"./assets/js/jquery.min.js" , "type":"js"},
+       {"path":"./assets/js/jquery.scrollex.min.js" , "type":"js"},
+       {"path":"./assets/js/jquery.scrolly.min.js" , "type":"js"},
+       {"path":"./assets/js/main.js" , "type":"js"},
+       {"path":"./assets/js/util.js" , "type":"js"}
+     
+     
+    ]
+}
