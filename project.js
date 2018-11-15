@@ -1,3 +1,5 @@
+const fs = require("fs");
+const packageConfig = JSON.parse(fs.readFileSync("./package.json","utf8"));
 const isProduction = process.env.NODE_ENV === 'production';
 const isGithubPublish = process.env.GITHUB_PUBLISH === 'true';
 
@@ -7,7 +9,7 @@ module.exports = require("marko-starter").projectConfig(isGithubPublish ? {
     outputDir: "dist/static",
     bundlingEnabled: isProduction,
     fingerprintsEnabled: isProduction,
-    urlPrefix:"/ustadji/static",    
+    urlPrefix:`${packageConfig.baseurl || ""}/static`,    
     minifyJS: false,
     plugins: [
         'lasso-marko'
