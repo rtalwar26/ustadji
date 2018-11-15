@@ -1,4 +1,6 @@
 #!/usr/local/bin/zsh
+export GITHUB_PUBLISH=true
+
 rm -rf .cache
 rm -rf docs
 npm run build
