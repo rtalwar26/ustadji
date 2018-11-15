@@ -5520,7 +5520,7 @@ $_mod.main("/marko$4.13.5/dist/components", "");
 $_mod.def("/marko$4.13.5/components-browser.marko", function(require, exports, module, __filename, __dirname) { module.exports = require('/marko$4.13.5/dist/components/index-browser'/*"./dist/components"*/);
 
 });
-$_mod.def("/ustadji$1.0.0/src/components/relative-link/component-browser", function(require, exports, module, __filename, __dirname) { module.exports = class {
+$_mod.def("/ustadji$1.0.0/src/components/a-rel/component-browser", function(require, exports, module, __filename, __dirname) { module.exports = class {
     onInput(input,out) {
         
 
@@ -5528,12 +5528,12 @@ $_mod.def("/ustadji$1.0.0/src/components/relative-link/component-browser", funct
     
 }
 });
-$_mod.def("/ustadji$1.0.0/src/routes/next-page/index.marko.js.init", function(require, exports, module, __filename, __dirname) { 
+$_mod.def("/ustadji$1.0.0/src/routes/home/index.marko.js.init", function(require, exports, module, __filename, __dirname) { 
                 var components = require('/marko$4.13.5/components-browser.marko'/*'marko/components'*/);
-                components.register('/ustadji$1.0.0/src/components/relative-link/component-browser', require('/ustadji$1.0.0/src/components/relative-link/component-browser'/*'/Users/rohittalwar/personal/Projects/node/ustadji/src/components/relative-link/component-browser.js'*/));
+                components.register('/ustadji$1.0.0/src/components/a-rel/component-browser', require('/ustadji$1.0.0/src/components/a-rel/component-browser'/*'/Users/rohittalwar/personal/Projects/node/ustadji/src/components/a-rel/component-browser.js'*/));
             
 });
-$_mod.run("/ustadji$1.0.0/src/routes/next-page/index.marko.js.init");
+$_mod.run("/ustadji$1.0.0/src/routes/home/index.marko.js.init");
 $_mod.def("/marko$4.13.5/dist/components/boot", function(require, exports, module, __filename, __dirname) { if (window.$initComponents) window.$initComponents();
 });
 $_mod.run("/marko$4.13.5/dist/components/boot");
