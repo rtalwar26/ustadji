@@ -3,4 +3,4 @@ module.exports = class {
         console.log('hi');
         alert('hi');
     }
-}
+};
